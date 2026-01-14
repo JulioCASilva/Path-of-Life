@@ -1,12 +1,9 @@
 package com.example.pathoflife.navigation
 
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.AttachMoney
-import androidx.compose.material.icons.filled.Checklist
-import androidx.compose.material.icons.filled.FitnessCenter
-import androidx.compose.material.icons.filled.Home
-import androidx.compose.material.icons.filled.Schedule
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.material.icons.rounded.*
+
 
 sealed class BottomNavItem(
     val route: String,
@@ -16,30 +13,30 @@ sealed class BottomNavItem(
 
     object Routine : BottomNavItem(
         route = "routine",
-        icon = Icons.Default.Schedule,
+        icon = Icons.Rounded.CalendarToday,
         label = "Rotina"
     )
 
     object Expenses : BottomNavItem(
         route = "expenses",
-        icon = Icons.Default.AttachMoney,
+        icon = Icons.Rounded.Payments,
         label = "Gastos"
     )
 
     object Home : BottomNavItem(
         route = "home",
-        icon = Icons.Default.Home
+        icon = Icons.Rounded.Home
     )
 
     object Training : BottomNavItem(
         route = "training",
-        icon = Icons.Default.FitnessCenter,
+        icon = Icons.Rounded.FitnessCenter,
         label = "Treinos"
     )
 
     object Habits : BottomNavItem(
         route = "habits",
-        icon = Icons.Default.Checklist,
+        icon = Icons.Rounded.TrackChanges,
         label = "Hábitos"
     )
 }
