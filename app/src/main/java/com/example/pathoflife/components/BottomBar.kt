@@ -47,7 +47,9 @@ fun BottomBar(navController: NavController) {
         label = "fabScale"
     )
 
-    Box {
+    Box (
+        modifier = Modifier.navigationBarsPadding()
+    ){
         Column {
             HorizontalDivider(
                 thickness = 1.dp,
@@ -56,7 +58,9 @@ fun BottomBar(navController: NavController) {
 
             NavigationBar(
                 containerColor = Color(0xFF09090b),
-                modifier = Modifier.height(88.dp)
+                modifier = Modifier
+                    .height(88.dp)
+                    .navigationBarsPadding()
             ) {
                 items.forEach { item ->
                     val selected = currentRoute == item.route

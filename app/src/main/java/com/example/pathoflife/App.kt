@@ -5,6 +5,7 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.navigation.compose.rememberNavController
+import com.example.pathoflife.components.AppTopBar
 import com.example.pathoflife.navigation.AppNavHost
 import com.example.pathoflife.components.BottomBar
 import com.example.pathoflife.ui.theme.background
@@ -15,6 +16,12 @@ fun App() {
 
     Scaffold(
         containerColor = background,
+        topBar = {
+            AppTopBar(
+                onProfileClick = {
+                }
+            )
+        },
         bottomBar = { BottomBar(navController) }
     ) { padding ->
         AppNavHost(
