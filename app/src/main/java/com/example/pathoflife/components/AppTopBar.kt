@@ -9,6 +9,11 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.res.painterResource
+import androidx.compose.foundation.Image
+import com.example.pathoflife.R
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.foundation.layout.height
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -21,8 +26,11 @@ fun AppTopBar(
                 containerColor = Color(0xFF09090B)
             ),
             title = {
-                Text(
-                    text = "Path of Life", color = Color.White
+                Image(
+                    painter = painterResource(R.drawable.logo),
+                    contentDescription = null,
+                    modifier = Modifier.height(15.dp),
+                    contentScale = ContentScale.FillHeight
                 )
             },
             actions = {
