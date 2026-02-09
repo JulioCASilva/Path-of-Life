@@ -1,4 +1,4 @@
-package com.example.pathoflife.navigation
+package com.example.pathoflife.app.navigation
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.ui.graphics.vector.ImageVector

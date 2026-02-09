@@ -1,15 +1,15 @@
-package com.example.pathoflife.navigation
+package com.example.pathoflife.app.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.example.pathoflife.screens.home.HomeScreen
-import com.example.pathoflife.screens.training.TrainingScreen
-import com.example.pathoflife.screens.habits.HabitsScreen
-import com.example.pathoflife.screens.expenses.ExpensesScreen
-import com.example.pathoflife.screens.routine.RoutineScreen
+import com.example.pathoflife.feature.home.presentation.HomeScreen
+import com.example.pathoflife.feature.training.presentation.TrainingScreen
+import com.example.pathoflife.feature.habits.presentation.HabitsScreen
+import com.example.pathoflife.feature.expenses.presentation.ExpensesScreen
+import com.example.pathoflife.feature.routine.presentation.RoutineScreen
 
 @Composable
 fun AppNavHost(

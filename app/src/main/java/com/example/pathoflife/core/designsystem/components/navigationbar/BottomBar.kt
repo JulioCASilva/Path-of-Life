@@ -1,4 +1,4 @@
-package com.example.pathoflife.components
+package com.example.pathoflife.core.designsystem.components.navigationbar
 
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.spring
@@ -17,7 +17,7 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import androidx.navigation.compose.currentBackStackEntryAsState
-import com.example.pathoflife.navigation.BottomNavItem
+import com.example.pathoflife.app.navigation.BottomNavItem
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.ui.unit.Dp
 

@@ -1,4 +1,4 @@
-package com.example.pathoflife.components
+package com.example.pathoflife.core.designsystem.components.topbar
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.AccountCircle

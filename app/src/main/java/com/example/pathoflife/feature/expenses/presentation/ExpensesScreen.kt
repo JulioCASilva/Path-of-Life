@@ -1,4 +1,4 @@
-package com.example.pathoflife.screens.habits
+package com.example.pathoflife.feature.expenses.presentation
 
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -10,15 +10,15 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.ui.Modifier
 
 @Composable
-fun HabitsScreen() {
+fun ExpensesScreen() {
     Box(
         modifier = Modifier.fillMaxSize(),
         contentAlignment = Alignment.Center
     ){
-        Text(
-            text="Hábitos",
-            color = Color.White,
-            fontSize = 24.sp
+    Text(
+        text = "Gastos",
+        color = Color.White,
+        fontSize = 24.sp
         )
     }
 }

@@ -1,13 +1,13 @@
-package com.example.pathoflife
+package com.example.pathoflife.app
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import com.example.pathoflife.ui.theme.PathOfLifeTheme
-import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import androidx.activity.enableEdgeToEdge
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
-import androidx.activity.enableEdgeToEdge
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import com.example.pathoflife.core.designsystem.theme.PathOfLifeTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

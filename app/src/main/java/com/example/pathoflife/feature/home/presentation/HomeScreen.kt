@@ -1,4 +1,4 @@
-package com.example.pathoflife.screens.routine
+package com.example.pathoflife.feature.home.presentation
 
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -10,13 +10,13 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.ui.Modifier
 
 @Composable
-fun RoutineScreen() {
+fun HomeScreen() {
     Box(
         modifier = Modifier.fillMaxSize(),
         contentAlignment = Alignment.Center
     ){
         Text(
-            text= "Rotina",
+            text= "Home",
             color = Color.White,
             fontSize = 24.sp
         )

@@ -1,4 +1,4 @@
-package com.example.pathoflife.ui.theme
+package com.example.pathoflife.core.designsystem.theme
 
 import androidx.compose.ui.graphics.Color
 
