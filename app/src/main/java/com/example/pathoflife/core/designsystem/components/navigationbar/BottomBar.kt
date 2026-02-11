@@ -91,7 +91,8 @@ fun BottomBar(navController: NavController) {
                         label = {
                             Text(
                                 text = item.label ?: "",
-                                color = itemColor
+                                color = itemColor,
+                                style = MaterialTheme.typography.labelSmall
                             )
                         },
                         alwaysShowLabel = true,
